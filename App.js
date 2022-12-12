@@ -41,7 +41,7 @@ const csrfMiddleware=csurf({
 const app = express();
 
 //database connection
-mongoose.connect("mongodb://127.0.0.1/mongoass5")
+mongoose.connect("mongodb+srv://sakshi:sakshi@cluster0.qk6mabg.mongodb.net/mongoass")
     .then(res => console.log("MongoDB Connected"))
     .catch(err => console.log("Error : " + err));
 //end
